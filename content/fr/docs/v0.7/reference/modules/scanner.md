@@ -60,7 +60,7 @@ Même si elles sont enregistrées dans des sous-dossiers créés après le déma
 flowchart LR
     START([Brute detectée])
     
-    WAIT_FILE[Attend fichier<br><br>Selon profil :<br>Visuel assisté : 10ms<br>Astrophoto : 500ms]    
+    WAIT_FILE[Attend fichier<br><br>Selon profil :<br>Visuel assisté : 10ms<br>Astrophoto : 1500ms]
     WAIT_RAM[Attend 20ms]
     
     CHECK_RAM{{Teste RAM dispo<br><br>Selon préférences :<br>Gourmand : 256MiB<br>Injuste : 512MiB<br>Juste : 1 GiB<br>Peureux : 2 GiB<br><br>OK ?}}
